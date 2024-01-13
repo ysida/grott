@@ -710,9 +710,46 @@ class Conf :
             "solarPpvW"            : {"value" :170, "length" : 4, "type" : "num", "divide" : 10},                        
             #same but current
 
+
+
+            # "pvstatus"          : {"value" :158, "length" : 2, "type" : "num"},  
+            # "pvpowerin"         : {"value" :162, "length" : 4, "type" : "num", "divide" : 10},        
+            # "pv1voltage"        : {"value" :170, "length" : 2, "type" : "num", "divide" : 10},        
+            # "pv1current"        : {"value" :174, "length" : 2, "type" : "num", "divide" : 10},                        
+
+            "sk_pvstatus"          : {"value" :150, "length" : 2, "type" : "num"},  
+            "sk_pvpowerin"         : {"value" :154, "length" : 4, "type" : "num", "divide" : 10},        
+            "sk_pv1voltage"        : {"value" :162, "length" : 2, "type" : "num", "divide" : 10},        
+            "sk_pv1current"        : {"value" :166, "length" : 2, "type" : "num", "divide" : 10},                        
+            "sk_pv1watt"           : {"value" :170, "length" : 4, "type" : "num", "divide" : 10},                      
+
+
+
+
+
+            
+            "sk_solar_ppv_w"           : {"value" :85*2, "length" : 4, "type" : "num", "divide" : 10},                      
+            "sk_solar_ppv_a"           : {"value" :81*2, "length" : 2, "type" : "num", "divide" : 10},                      
+
             # left
-            "batteryPercentage"    : {"value" :230, "length" : 2, "type" : "num", "divide" : 1},                
+            "batteryPercentage"    :# {"value" :230, "length" : 2, "type" : "num", "divide" : 1},                
+                                    #  {"value" :232, "length" : 1, "type" : "num", "divide" : 1},                 
+                                     {"value" :116*2, "length" : 1, "type" : "num", "divide" : 1},                 
+
+            # todo check discharging 
             "batteryChargingPower" : {"value" :210, "length" : 4, "type" : "num", "divide" : 10}, 
+            "batteryDischargingPower" : {"value" :229*2, "length" : 4, "type" : "num", "divide" : 10}, 
+
+
+            # 00 00 at around 8am  related to solar 
+            "sk_unknown_guess1"        : {"value" :83*2, "length" : 2, "type" : "num", "divide" : 10},                      
+
+
+
+
+
+
+
             
             # bottom 
             "gridImport"           : {"value" :302, "length" : 4, "type" : "num", "divide" : 10},                
@@ -724,8 +761,8 @@ class Conf :
             "pvserial"          : {"value" :76, "length" : 10, "type" : "text"},
 
             # testing
-            "sksolarPpv174_2"        : {"value" :174, "length" : 3, "type" : "num", "divide" : 10},                        
-            "sksolarPpv170_4"        : {"value" :170, "length" : 4, "type" : "num", "divide" : 10},                        
+            # "sksolarPpv174_2"        : {"value" :174, "length" : 3, "type" : "num", "divide" : 10},                        
+            # "sksolarPpv170_4"        : {"value" :170, "length" : 4, "type" : "num", "divide" : 10},                        
 
 
 
