@@ -461,7 +461,21 @@ def procdata(conf,data):
                 #print(type(definedkey[key]))                                 
                 #if type(definedkey[key]) == type(1) :                                                                     
                 #    jsonobj["values"][key] = definedkey[key]
-            jsonobj["values"][key] = definedkey[key]
+
+
+            try:  
+                keydivide =  conf.recorddict[layout][key]["divide"]
+            except:
+                keydivide = 1  
+
+            if type(definedkey[key]) != type(str()) and keydivide != 1 :
+                printkey = "{:.1f}".format(definedkey[key]/keydivide)          
+            else :
+                printkey = definedkey[key]
+            print("\t\t - ",key.ljust(20) + " : ",printkey)              
+
+            # jsonobj["values"][key] = definedkey[key]
+            jsonobj["values"][key] = printkey
                      
         jsonmsg = json.dumps(jsonobj) 
         
