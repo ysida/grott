@@ -1,0 +1,64 @@
+    - Growatt plain data:
+                 00190006015f01044444443043444631415700000000000000000000000000000000000000004
+                 a4e4b3143444530364d000000000000000000000000000000000000000018010c140d2e030000
+                 002c000a036f00000000003c00000000000100000000170200001af40000047e0000047e157b0
+                 03611d8089f140f089f141ffffd00d800b80075000000000000000000ab00de001a001400001a
+                 36000019dd00000000000000004e89002d00590929000000000000002e0000c3ac00000000000
+                 00000000000030000101e00000003000046a000000006000005e700150000172a00001afe0000
+                 000000000000fffffbbe000000000000001f0013000000000012000000120000005a008600140
+                 00112660000000014200fab0bd508fb13880a4dfbda02c304c10004016d0152014c0000000000
+                 00000000000000000000000000000000000000000000000000000000000000000000000000000
+                 0000000000000000000005f6d
+         - Possible Inverter serial JNK1CDE06M
+         - Inverter serial not recognised - using inverter type default
+         - Growatt new layout processing
+                 - decrypt       :  True
+                 - offset        :  6
+                 - record layout :  T06NNNN
+
+         - Grott data record date/time processing started
+         - date-time:  2024-01-12T20:13:46
+         - Grott values retrieved:
+                 -  datalogserial        :  DDD0CDF1AW
+                 -  pvserial             :  JNK1CDE06M
+                 -  pvstatus             :  10
+                 -  pvpowerin            :  5760614.4
+                 -  pv1voltage           :  0.0
+                 -  pv1current           :  6.0
+                 -  pv1watt              :  0.0
+                 -  pv2voltage           :  0.1
+                 -  pv2current           :  0.0
+                 -  pv2watt              :  589.0
+                 -  pvpowerout           :  690.0
+                 -  pvfrequentie         :  0.0
+                 -  pvgridvoltage        :  115.0
+                 -  pvgridcurrent        :  0.0
+                 -  pvgridpower          :  7537189.9
+                 -  pvgridvoltage2       :  5.4
+                 -  pvgridcurrent2       :  456.8
+                 -  pvgridpower2         :  14464308.7
+                 -  pvgridvoltage3       :  220.7
+                 -  pvgridcurrent3       :  515.1
+                 -  pvgridpower3         :  429477090.4
+                 -  pvenergytoday        :  1205874.1
+                 -  pvenergytotal        :  0.0
+                 -  totworktime          :  0.0
+                 -  pvtemperature        :  17.1
+                 -  pvipmtemperature     :  0.0
+                 -  epv1today            :  4.6
+                 -  epv1total            :  5009.2
+                 -  epv2today            :  0.0
+                 -  epv2total            :  0.0
+                 -  epvtotallll123       :  0.3
+         - MQTT jsonmsg:
+                         {"device": "JNK1CDE06M", "time": "2024-01-12T20:13:46", "buffered": "no",
+                         "values": {"datalogserial": "DDD0CDF1AW", "pvserial": "JNK1CDE06M",
+                         "pvstatus": 10, "pvpowerin": 57606144, "pv1voltage": 0, "pv1current": 60,
+                         "pv1watt": 0, "pv2voltage": 1, "pv2current": 0, "pv2watt": 5890,
+                         "pvpowerout": 6900, "pvfrequentie": 0, "pvgridvoltage": 1150,
+                         "pvgridcurrent": 0, "pvgridpower": 75371899, "pvgridvoltage2": 54,
+                         "pvgridcurrent2": 4568, "pvgridpower2": 144643087, "pvgridvoltage3": 2207,
+                         "pvgridcurrent3": 5151, "pvgridpower3": 4294770904, "pvenergytoday":
+                         12058741, "pvenergytotal": 0, "totworktime": 0, "pvtemperature": 171,
+                         "pvipmtemperature": 0, "epv1today": 46, "epv1total": 50092, "epv2today": 0,
+                         "epv2total": 0, "epvtotallll123": 3}}

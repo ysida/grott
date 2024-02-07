@@ -729,7 +729,7 @@ class Conf :
 
             
             "sk_solar_ppv_w"           : {"value" :85*2, "length" : 4, "type" : "num", "divide" : 10},                      
-            "sk_solar_ppv_a"           : {"value" :81*2, "length" : 2, "type" : "num", "divide" : 10},                      
+            "sk_solar_ppv_a"           : {"value" :81*2, "length" : 2, "type" : "num", "divide" : 10000},                      
 
             # left
             "batteryPercentage"    :# {"value" :230, "length" : 2, "type" : "num", "divide" : 1},                

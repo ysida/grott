@@ -1,0 +1,38 @@
+            {
+                "device": "JNK1CDE06M",
+                "time": "2024-01-12T18:43:48",
+                "buffered": "no",
+                "values": {
+                    "datalogserial": "DDD0CDF1AW",
+                    "pvserial": "JNK1CDE06M",
+                    "pvstatus": 10,
+                    "pvpowerin": 45875200,
+                    "pv1voltage": 0,
+                    "pv1current": 50,
+                    "pv1watt": 0,
+                    "pv2voltage": 0,
+                    "pv2current": 0,
+                    "pv2watt": 2540,
+                    "pvpowerout": 3300,
+                    "pvfrequentie": 0,
+                    "pvgridvoltage": 2910,    // charging power 0.1 @
+                    "pvgridcurrent": 0,
+                    "pvgridpower": 190715268,
+                    "pvgridvoltage2": 53,     // battery percentage %
+                    "pvgridcurrent2": 4573,
+                    "pvgridpower2": 143856604,
+                    "pvgridvoltage3": 2195,
+                    "pvgridcurrent3": 5088,
+                    "pvgridpower3": 4294770913,
+                    "pvenergytoday": 12320818,
+                    "pvenergytotal": 0,
+                    "totworktime": 0,
+                    "pvtemperature": 184,
+                    "pvipmtemperature": 0,
+                    "epv1today": 46,
+                    "epv1total": 50092,
+                    "epv2today": 0,
+                    "epv2total": 0,
+                    "epvtotal": 1
+                }
+            }

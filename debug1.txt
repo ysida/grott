@@ -1,0 +1,80 @@
+         - layout   :  T060104
+         - no matching record layout found, try generic
+         - Record layout used :  T06NNNN
+         - Growatt data decrypted V2
+         - Grott Growatt data decrypted
+         - Growatt plain data:
+00330006015f01044444443043444631415700000000000000000000000000000000000000004
+a4e4b3143444530364d000000000000000000000000000000000000000018010c0e0723030000
+002c000c0e9300000000242c0000000000a600000000056e000009a6000000000000000015b70
+031119500000000091b1388000000e800c8001b000000000000000000d700f6000a0018000000
+000000000000000000000000004e89002d0059000000000000000000200000c39e00000000000
+00000000000000000101b000000000000469d00000000000005e1000000000582000009a60000
+000000000000ffffe476000000000000002f007e000000000005000000050000005a0086007f0
+00112660000000014200fab0bd508fb13880a4dfbda02c304c10004016d0152014c0000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000
+000000000000000000000b285
+
+
+
+00330006015f01044444443043444631415700000000000000000000000000000000000000004a4e4b3143444530364d000000000000000000000000000000000000000018010c0e0723030000002c000c0e9300000000242c0000000000a600000000056e000009a6000000000000000015b70031119500000000091b1388000000e800c8001b000000000000000000d700f6000a0018000000000000000000000000000000004e89002d0059000000000000000000200000c39e0000000000000000000000000000101b000000000000469d00000000000005e1000000000582000009a60000000000000000ffffe476000000000000002f007e000000000005000000050000005a0086007f000112660000000014200fab0bd508fb13880a4dfbda02c304c10004016d0152014c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000b285
+
+         - Possible Inverter serial JNK1CDE06M
+         - Inverter serial not recognised - using inverter type default
+         - Growatt new layout processing
+                 - decrypt       :  True
+                 - offset        :  6
+                 - record layout :  T06NNNN
+
+         - Grott data record date/time processing started
+         - date-time:  2024-01-12T14:07:35
+         - Grott values retrieved:
+                 -  datalogserial        :  DDD0CDF1AW
+                 -  pvserial             :  JNK1CDE06M
+                 -  pvstatus             :  12
+                 -  pvpowerin            :  24451481.6
+                 -  pv1voltage           :  0.0
+                 -  pv1currenpv1currentt           :  926.0
+                 -  pv1watt              :  0.0
+                 -  pv2voltage           :  16.6
+                 -  pv2current           :  0.0
+                 -  pv2watt              :  139.0
+                 -  pvpowerout           :  247.0
+                 -  pvfrequentie         :  0.0
+                 -  pvgridvoltage        :  0.0
+                 -  pvgridcurrent        :  0.0
+                 -  pvgridpower          :  555.9
+                 -  pvgridvoltage2       :  4.9
+                 -  pvgridcurrent2       :  450.1
+                 -  pvgridpower2         :  0.0
+                 -  pvgridvoltage3       :  233.1
+                 -  pvgridcurrent3       :  500.0
+                 -  pvgridpower3         :  23.2
+                 -  pvenergytoday        :  1310722.7
+                 -  pvenergytotal        :  0.0
+                 -  totworktime          :  0.0
+                 -  pvtemperature        :  21.5
+                 -  pvipmtemperature     :  0.0
+                 -  epv1today            :  3.2
+                 -  epv1total            :  5007.8
+                 -  epv2today            :  0.0
+                 -  epv2total            :  0.0
+                 -  epvtotal             :  0.0
+         - MQTT jsonmsg:
+                         {"device": "JNK1CDE06M", "time": "2024-01-12T14:07:35", "buffered": "no",
+                         "values": {"datalogserial": "DDD0CDF1AW", "pvserial": "JNK1CDE06M",
+                         "pvstatus": 12, "pvpowerin": 244514816, "pv1voltage": 0, "pv1current": 9260,
+                         "pv1watt": 0, "pv2voltage": 166, "pv2current": 0, "pv2watt": 1390,
+                         "pvpowerout": 2470, "pvfrequentie": 0, "pvgridvoltage": 0, "pvgridcurrent":
+                         0, "pvgridpower": 5559, "pvgridvoltage2": 49, "pvgridcurrent2": 4501,
+                         "pvgridpower2": 0, "pvgridvoltage3": 2331, "pvgridcurrent3": 5000,
+                         "pvgridpower3": 232, "pvenergytoday": 13107227, "pvenergytotal": 0,
+                         "totworktime": 0, "pvtemperature": 215, "pvipmtemperature": 0, "epv1today":
+                         32, "epv1total": 50078, "epv2today": 0, "epv2total": 0, "epvtotal": 0}}
+         - Grott MQTT topic used : energy/growatt
+         - MQTT message message sent
+         - Grott Send data to PVOutput disabled
+         - Grott Send data to Influx disabled
+         - Grott extension processing disabled
+
+~
