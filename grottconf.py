@@ -1356,9 +1356,13 @@ class Conf :
             if ((x[0] == 't' or x[0] == 'T') and x.find('.json') > 0):   
                 print(x)
                 with open(x) as json_file: 
-                    dicttemp = json.load(json_file) 
-                    #print(dicttemp)
-                    self.recorddict.update(dicttemp)
+                    try:
+                        dicttemp = json.load(json_file) 
+                        #print(dicttemp)
+                        self.recorddict.update(dicttemp)
+                    except Exception as e:
+                        print(f"{e}")
+
                 
                 
         if self.verbose: print("\nGrott layout records loaded")
